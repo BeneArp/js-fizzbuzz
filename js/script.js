@@ -10,14 +10,14 @@ for(let i = 1; i <= 100; i++){
     let valore = i;
 
     // condizione
-    if(i % 3 === 0){
+    if ((i % 3 === 0) && (i % 5 === 0)){
+        valore = "FizzBuzz";
+        
+    }else if(i % 3 === 0){
         valore = "Fizz";
 
     }else if (i % 5 === 0){
         valore = "Buzz";
-    }
-    else if ((i % 3 === 0) && (i % 5 === 0)){
-        valore = "FizzBuzz";
     }
 
     console.log(valore);
