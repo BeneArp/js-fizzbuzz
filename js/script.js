@@ -28,22 +28,22 @@ for(let i = 1; i <= 100; i++){
     if ((i % 3 === 0) && (i % 5 === 0)){
         valore = "FizzBuzz";
 
-    // aggiungo classe specifica per il div con un valore divisibile sia per 3 che per 5
-    box.classList.add("divisione-entrambi")
+        // aggiungo classe specifica per il div con un valore divisibile sia per 3 che per 5
+        box.classList.add("divisione-entrambi")
 
     // numeri divisibili per 3
     }else if(i % 3 === 0){
         valore = "Fizz";
 
-    // aggiungo classe specifica per il div con un valore divisibile per 3
-    box.classList.add("divisione-3")
+        // aggiungo classe specifica per il div con un valore divisibile per 3
+        box.classList.add("divisione-3")
 
     // numeri divisibili per 5
     }else if (i % 5 === 0){
         valore = "Buzz";
-        
-    // aggiungo classe specifica per il div con un valore divisibile per 5
-    box.classList.add("divisione-5")
+            
+        // aggiungo classe specifica per il div con un valore divisibile per 5
+        box.classList.add("divisione-5")
     
     }
 

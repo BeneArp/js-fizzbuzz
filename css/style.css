@@ -21,24 +21,25 @@ h1{
 .container{
     width: 60%;
     margin: 6em auto;
-    /* debug */
-    border: 2px solid white;
 }
 
+/* formattazione riga */
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 
+/* formattazione generale colonne */
 .col-13{
     width: 13%;
     background-color: rgb(19 137 178);
     text-align: center;
     margin: 0.6%;
-    /* debug */
-    height: 150px;
+    padding: 4em 0;
+    font-size: 20px;
 }
 
+/* colore di sfondo specifico colonne */
 .divisione-entrambi{
     background-color: rgb(240 70 111);
 }
