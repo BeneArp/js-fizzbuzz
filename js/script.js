@@ -47,11 +47,15 @@ for(let i = 1; i <= 100; i++){
     
     }
 
+    // stampo in console il ciclo con i giusti valori attribuiti ad ogni cifra in base alla condizioni precedenti
+    console.log(valore);
+
+
+    // STAMPO IN PAGINA
+    // inserisco i valori ricavati dal ciclo dentro il div
+    box.append(valore);
 
     // inserisco il div nell'html
     riferimentoContenitore.append(box);
-
-    // stampo in console il ciclo con i giusti valori attribuiti ad ogni cifra in base alla condizioni precedenti
-    console.log(valore);
 
 }
