@@ -27,4 +27,12 @@ for(let i = 1; i <= 100; i++){
 
     // stampo in console il ciclo con i giusti valori attribuiti ad ogni cifra in base alla condizioni precedenti
     console.log(valore);
+
+    // prendo dal documento il riferimento al contenitore
+    const riferimentoContenitore = document.querySelector(".container");
+
+    // creo una variabile per appendere il div nell'html
+    let box = document.createElement("div");
+
+    riferimentoContenitore.append(box);
 }
