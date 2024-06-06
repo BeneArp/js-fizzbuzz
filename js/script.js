@@ -41,6 +41,10 @@ for(let i = 1; i <= 100; i++){
     // numeri divisibili per 5
     }else if (i % 5 === 0){
         valore = "Buzz";
+        
+    // aggiungo classe specifica per il div con un valore divisibile per 5
+    box.classList.add("divisione-5")
+    
     }
 
 
