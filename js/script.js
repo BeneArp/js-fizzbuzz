@@ -4,7 +4,7 @@
 
 // CICLO
 // creo un ciclo che raccolga i numeri da 1 a 100
-for(let i = 1; i <= 150; i++){
+for(let i = 1; i <= 100; i++){
     // stampo in console tutti i numeri raccolti dal ciclo
     // console.log(i);
 
