@@ -4,5 +4,18 @@
 // creo un ciclo che raccolga i numeri da 1 a 100
 for(let i = 1; i <= 100; i++){
     // stampo in console tutti i numeri raccolti dal ciclo
-    console.log(i);
+    // console.log(i);
+
+    // creo una variabile con il contenuto di i
+    let numero = i;
+
+    // condizione
+    if(i % 3 === 0){
+        numero = "Fizz";
+
+    }else if (i % 5 === 0){
+        numero = "Buzz";
+    }
+
+    console.log(numero);
 }
