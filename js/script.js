@@ -19,8 +19,7 @@ for(let i = 1; i <= 100; i++){
     // aggiungo la classe generica al div
     box.classList.add("col-13")
 
-    // inserisco il div nell'html
-    riferimentoContenitore.append(box);
+
 
 
 
@@ -28,7 +27,10 @@ for(let i = 1; i <= 100; i++){
     // numeri divisibili sia per 3 che per 5
     if ((i % 3 === 0) && (i % 5 === 0)){
         valore = "FizzBuzz";
-    
+
+        // aggiungo classe specifica per il div con un valore divisibile sia per 3 che per 5
+        box.classList.add("divisione-entrambi")
+
     // numeri divisibili per 3
     }else if(i % 3 === 0){
         valore = "Fizz";
@@ -37,6 +39,10 @@ for(let i = 1; i <= 100; i++){
     }else if (i % 5 === 0){
         valore = "Buzz";
     }
+
+
+    // inserisco il div nell'html
+    riferimentoContenitore.append(box);
 
     // stampo in console il ciclo con i giusti valori attribuiti ad ogni cifra in base alla condizioni precedenti
     console.log(valore);
