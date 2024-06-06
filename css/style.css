@@ -1,5 +1,32 @@
+/* azzeramento parametri */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(8 59 76);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* main */
+h1{
+    color: white;
+    font-size: 60px;
+    margin: 1em 0;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    /* debug */
+    border: 2px solid white;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
