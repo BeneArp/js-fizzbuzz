@@ -11,6 +11,19 @@ for(let i = 1; i <= 100; i++){
     let valore = i;
 
 
+    // prendo dal documento il riferimento al contenitore
+    const riferimentoContenitore = document.querySelector(".container");
+
+    // creo una variabile per appendere il div nell'html
+    let box = document.createElement("div");
+    // aggiungo la classe generica al div
+    box.classList.add("col-13")
+
+    // inserisco il div nell'html
+    riferimentoContenitore.append(box);
+
+
+
     // CONDIZIONE
     // numeri divisibili sia per 3 che per 5
     if ((i % 3 === 0) && (i % 5 === 0)){
@@ -28,11 +41,4 @@ for(let i = 1; i <= 100; i++){
     // stampo in console il ciclo con i giusti valori attribuiti ad ogni cifra in base alla condizioni precedenti
     console.log(valore);
 
-    // prendo dal documento il riferimento al contenitore
-    const riferimentoContenitore = document.querySelector(".container");
-
-    // creo una variabile per appendere il div nell'html
-    let box = document.createElement("div");
-
-    riferimentoContenitore.append(box);
 }

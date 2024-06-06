@@ -20,7 +20,7 @@ h1{
 
 .container{
     width: 60%;
-    margin: 0 auto;
+    margin: 6em auto;
     /* debug */
     border: 2px solid white;
 }
@@ -28,5 +28,13 @@ h1{
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+}
+
+.col-13{
+    width: 13%;
+    background-color: rgb(19 137 178);
+    text-align: center;
+    margin: 0.6%;
+    /* debug */
+    height: 150px;
 }
