@@ -7,18 +7,18 @@ for(let i = 1; i <= 100; i++){
     // console.log(i);
 
     // creo una variabile con il contenuto di i
-    let numero = i;
+    let valore = i;
 
     // condizione
     if(i % 3 === 0){
-        numero = "Fizz";
+        valore = "Fizz";
 
     }else if (i % 5 === 0){
-        numero = "Buzz";
+        valore = "Buzz";
     }
     else if ((i % 3 === 0) && (i % 5 === 0)){
-        numero = "FizzBuzz";
+        valore = "FizzBuzz";
     }
 
-    console.log(numero);
+    console.log(valore);
 }
